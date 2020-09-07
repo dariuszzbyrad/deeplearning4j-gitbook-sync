@@ -16,7 +16,7 @@ If you want to use the new model zoo, you will need to add it as a dependency. A
 <dependency>
     <groupId>org.deeplearning4j</groupId>
     <artifactId>deeplearning4j-zoo</artifactId>
-    <version>1.0.0-beta6</version>
+    <version>1.0.0-beta7</version>
 </dependency>
 ```
 

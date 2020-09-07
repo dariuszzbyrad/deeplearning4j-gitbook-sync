@@ -20,19 +20,19 @@ Arbiter is part of the DL4J Suite of Machine Learning/Deep Learning tools for th
 
 When to use Arbiter? Arbiter can be used to find good performing models, potentially saving you time tuning your model's hyperparameters, at the expense of greater computational time. Note however that Arbiter doesn't completely automate the neural network tuning process, the user still needs to specify a search space. This search space defines the range of valid values for each hyperparameter \(example: minimum and maximum allowable learning rate\). If this search space is chosen poorly, Arbiter may not be able to find any good models.
 
-Add the following to your pom.xml to include Arbiter in your project where `1.0.0-beta6` is the latest release of the dl4j stack.
+Add the following to your pom.xml to include Arbiter in your project where `1.0.0-beta7` is the latest release of the dl4j stack.
 
 ```markup
 <!-- Arbiter - used for hyperparameter optimization (grid/random search) -->
 <dependency>
     <groupId>org.deeplearning4j</groupId>
     <artifactId>arbiter-deeplearning4j</artifactId>
-    <version>1.0.0-beta6</version>
+    <version>1.0.0-beta7</version>
 </dependency>
 <dependency>
     <groupId>org.deeplearning4j</groupId>
     <artifactId>arbiter-ui</artifactId>
-    <version>1.0.0-beta6</version>
+    <version>1.0.0-beta7</version>
 </dependency>
 ```
 

@@ -29,11 +29,11 @@ implementation (group: 'org.deeplearning4j', name: 'deeplearning4j-core', versio
     exclude group: 'org.bytedeco', module: 'leptonica-platform'
     exclude group: 'org.bytedeco', module: 'hdf5-platform'
 }
-implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta6'
-implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta6', classifier: "android-arm"
-implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta6', classifier: "android-arm64"
-implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta6', classifier: "android-x86"
-implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta6', classifier: "android-x86_64"
+implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta7'
+implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta7', classifier: "android-arm"
+implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta7', classifier: "android-arm64"
+implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta7', classifier: "android-x86"
+implementation group: 'org.nd4j', name: 'nd4j-native', version: '1.0.0-beta7', classifier: "android-x86_64"
 implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2'
 implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2', classifier: "android-arm"
 implementation group: 'org.bytedeco', name: 'openblas', version: '0.3.7-1.5.2', classifier: "android-arm64"

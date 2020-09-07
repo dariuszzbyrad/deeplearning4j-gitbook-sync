@@ -49,8 +49,8 @@ Snapshots work like any other Maven dependency. The only difference is that they
 If using properties like the DL4J examples, change: From version:
 
 ```markup
-<dl4j.version>1.0.0-beta6</dl4j.version>
-<nd4j.version>1.0.0-beta6</nd4j.version>
+<dl4j.version>1.0.0-beta7</dl4j.version>
+<nd4j.version>1.0.0-beta7</nd4j.version>
 ```
 
 To version:

@@ -70,7 +70,7 @@ To use Keras model import in your existing project, all you need to do is add th
 <dependency>
     <groupId>org.deeplearning4j</groupId>
     <artifactId>deeplearning4j-modelimport</artifactId>
-    <version>1.0.0-beta6</version> // This version should match that of your other DL4J project dependencies.
+    <version>1.0.0-beta7</version> // This version should match that of your other DL4J project dependencies.
 </dependency>
 ```
 
